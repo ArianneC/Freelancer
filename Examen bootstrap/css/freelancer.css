@@ -1,0 +1,224 @@
+header nav{
+	background-color: #1a242f;
+	border-radius: 0;
+	padding: 1% 0%;
+}
+.active{
+	background-color: #001429;
+}
+header button .menu{
+	background-color: rgba(0,0,0.7);
+	color: white;
+}
+header button span i:hover{
+  color: #18bc9c;
+}
+header nav h3{
+	color: white;
+}
+header h3:hover{
+	color: #18bc9c;
+}
+header nav ul li a{
+	color: white;
+}
+header nav ul li:hover{
+	color: #18bc9c;
+}
+.nav > li > a:hover{ 
+	text-decoration: none;
+	background-color: black;
+}
+.tf{
+	text-transform: uppercase;
+}
+.cl-green{
+	color: #18bc9c;
+}
+
+/* logo */
+.design .line{
+	width: 10%;
+	border: 2px solid white;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+.design i{
+ 	font-size: 1.7em;
+ 	color: white;
+  padding:0 1%;
+}
+.line-blue{
+	width: 10%;
+	border: solid  2px;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+.design-blue i{
+	font-size: 1.7em;
+  padding:0 1%;
+}
+
+
+
+.text-white{
+	color: white;
+}
+
+
+/*hero*/
+
+.bg-green .container{
+	padding-top: 16%;
+}
+.bg-green .row{
+	padding: 0% 5% 0% 1%;
+}
+.links p{
+	font-size: 1.5em;
+	padding: 5% 0% 10%;
+}
+
+/* PORTFOLIO */
+
+.portfolio img{
+	width: 100%;
+	padding: 10% 0% 5%;
+}
+#portfolio .portfolio { 
+	right: 0; margin: 0 0 15px; 
+} 
+#portfolio .portfolio .portfolio-link {
+   display: block;
+   position: relative; 
+   margin: 0 auto; 
+   max-width: 400px; 
+ } 
+ #portfolio .portfolio .portfolio-link .hover-green {
+   position: absolute; 
+   width: 100%; 
+   height: 83%;
+   margin-top: 10%; 
+   opacity: 0; 
+   background: rgba(24,188,156,.9); 
+}
+ #portfolio .portfolio .portfolio-link .hover-green:hover { 
+ 	opacity: 1; 
+} 
+#portfolio .portfolio .portfolio-link .hover-green .contenido { 
+	position: absolute; 
+	top: 50%; 
+	width: 100%; 
+	height: 20px; 
+	margin-top: -12px; 
+	text-align: center; 
+	font-size: 20px; 
+	color: #fff;
+ }
+ #portfolio .portfolio.portfolio-link .hover-green .contenido i { 
+    margin-top: -12px; 
+ }
+  #portfolio * { 
+  	z-index: 2;
+  } 
+  @media(min-width:767px) { 
+  	#portfolio .portfolio { 
+  		margin: 0 0 30px; 
+  	} 
+  }
+
+/* utilities */
+.pl{
+	padding-left: 5%; 
+}
+.pb{
+	padding-bottom: 10%;
+}
+.mt{
+	margin-top: 10%;
+}
+.pd{
+	padding: 4% 0% 3%;
+}
+
+
+.about .container{
+	padding: 5% 20%;
+}
+.about a{
+  border: 2px solid white;
+  border-radius: 5px;
+  color: #1a242f;
+  padding: 1% 2%;
+}
+.about a:hover{
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+}
+.about-me .container{
+   padding: 5% 10%;
+}
+
+/* after footer */
+.bg-blue{
+	background-color: #1A2349;
+	padding: 4% 0%;
+}
+.bg-blue p{
+	font-size: 0.9em;
+}
+.bg-blue i{
+	border-radius: 100%;
+	border: 1px solid white;
+	padding: 3%;
+	margin-left: 2%;
+}
+.bg-blue i:hover{
+  color: #18bc9c;
+  background-color: white;
+}
+
+/*forms*/
+
+section form input.form-control{
+	border: none;
+}
+form button.btn{
+	color: white;
+	background-color: #18bc9c;
+	margin-bottom: 5%;
+}
+form input.form-control.message{
+	height: 120px;
+}
+form button.btn:hover{
+	background-color: rgba(0,0,0.7);
+}
+form input.form-control:hover{
+  background: rgba(24,188,156,0.9);
+  color: black;
+}
+form .row{
+	padding: 0% 20%;
+}
+
+
+/*footer*/
+
+footer{
+	background-color: #1a242f;
+	padding: 1% 0%;
+}
+footer p{
+	font-size: 0.8em;
+}
+
+
+/* blog */
+
+.blog .row{
+	padding: 2% 11%;
+}
+.blog .row h2{
+	padding-left: 15px;
+}
